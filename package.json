@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src --ext .js,.vue",
-    "lint:fix": "eslint src --ext .js,.vue --fix"
+    "lint:fix": "eslint src --ext .js,.vue --fix",
+    "serve": "vite preview --port 8080"
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.5.1",
