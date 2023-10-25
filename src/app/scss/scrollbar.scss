@@ -1,0 +1,26 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--neutral-light-gray);
+  border: 4px transparent solid;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border: 4px transparent solid;
+  background: var(--neutral-dark-grey);
+  background-clip: padding-box;
+}
