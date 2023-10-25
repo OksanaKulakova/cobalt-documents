@@ -26,14 +26,14 @@
     padding-top: 56px;
     display: flex;
     gap: 32px;
+    justify-content: center;
     background-color: var(--neutral-light-gray);
   }
 
   .sidebar {
-    position: absolute;
-    top: 56px;
-    right: 0;
-    width: 500px;
-    background-color: var(--white-base);
+    width: 350px;
+    padding: 32px;
+    background-color: var(--neutral-light);
+    border: 1px solid var(--color-base);
   }
 </style>
