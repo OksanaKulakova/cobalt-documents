@@ -151,32 +151,6 @@ a, .link {
   }
 }
 
-.button:hover ~ .tooltip {
-  opacity: 1;
-}
-
-.tooltip {
-  position: absolute;
-  right: 0;
-  bottom: 56px;
-  width: fit-content;
-  max-width: 278px;
-  padding: 10px 16px;
-  border-radius: 8px;
-  background: var(--color-base);
-  color: var(--white-base);
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.05s linear;
-
-  &:after {
-    content: '';
-    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMEgxMkw2IDhMMCAwWiIgZmlsbD0iIzE2MTYxOSIvPjwvc3ZnPg==);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: -8px;
-    width: 12px;
-    height: 8px;
-  }
+ul {
+  padding-left: 30px;
 }
