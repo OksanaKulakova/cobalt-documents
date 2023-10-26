@@ -29,6 +29,6 @@ export default defineConfig({
     modules: {
       localsConvention: 'dashes',
     },
-    base: '/cobalt-documents/',
   },
+  base: '/cobalt-documents/',
 })
