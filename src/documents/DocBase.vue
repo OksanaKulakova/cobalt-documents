@@ -168,6 +168,7 @@ const person = ref('Уважаемая Татьяна Владимировна!'
 
   .info {
     display: flex;
+    justify-content: space-between;
     gap: 16px;
     padding: 15px 0;
     border-top: 1px solid #161619;
