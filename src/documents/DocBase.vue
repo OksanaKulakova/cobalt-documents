@@ -170,8 +170,8 @@ const person = ref('Уважаемая Татьяна Владимировна!'
     display: flex;
     gap: 16px;
     padding: 15px 0;
-    border-top: 1px solid var(--color-base);
-    border-bottom: 1px solid var(--color-base);
+    border-top: 1px solid #161619;
+    border-bottom: 1px solid #161619;
   }
 
   .number {
@@ -180,7 +180,7 @@ const person = ref('Уважаемая Татьяна Владимировна!'
   }
 
   .body {
-    height: 1048px;
+    height: 1046px;
     padding: 64px 270px 64px 0px;
   }
 
