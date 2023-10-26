@@ -20,6 +20,8 @@ const name = ref('Васильевой Т.В.');
 const number = ref('42');
 const month = ref('09');
 const year = ref('23');
+
+const person = ref('Уважаемая Татьяна Владимировна!');
 </script>
 
 <template>
@@ -42,7 +44,9 @@ const year = ref('23');
             <div class="text-small">info@cobalt.online / +7 982 230 18 21</div>
           </div>
         </div>
+
         <h1 class="title">{{ title }}</h1>
+
         <div class="info">
           <div class="name">
             <div class="text">{{ position }}</div>
@@ -51,9 +55,10 @@ const year = ref('23');
           </div>
           <div class="number">Исх. №{{ number }}/{{ month }}––{{ year }}</div>
         </div>
+
         <div class="body">
           <div class="text">
-            <p>Уважаемая Татьяна Владимировна!<br>
+            <p>{{ person }}<br>
               АО «Кобальт42» совместно с компаниями-практиками строительной отрасли
               разработали онлайн-сервис для промышленного строительства –– Cobalt.
             </p>
@@ -108,6 +113,7 @@ const year = ref('23');
       <label>Номер:<input v-model="number" /></label>
       <label>Месяц:<input v-model="month" /></label>
       <label>Год:<input v-model="year" /></label>
+      <label>Обращение:<input v-model="person" /></label>
       <button type="button" class="button" @click="handlePrint">Print</button>
     </template>
   </LayoutBase>
@@ -116,7 +122,7 @@ const year = ref('23');
 <style lang="scss" scoped>
   label {
     display: block;
-    margin: 32px 0;
+    margin: 16px 0;
   }
 
   input {
